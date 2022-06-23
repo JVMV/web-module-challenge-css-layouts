@@ -51,10 +51,11 @@ strong {
 }
 html {
     font-size: 62.5%;
-    margin: 10px;
-    background-color: white;
+    background-image: linear-gradient(to top, lightGray, white);
 }
-
+body {
+    margin: 10px;
+}
 /* Header */
 header {
     /* border: solid 5px lightblue; */
@@ -191,7 +192,7 @@ footer {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     height: 100px;
 }
 #ftr-btn {
