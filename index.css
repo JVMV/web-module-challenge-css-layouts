@@ -90,6 +90,9 @@ header {
     margin: 1px;
     text-decoration: none;
 }
+.nav-bar nav a:hover {
+    background-color: white;
+}
 /* END Header */
 
 /* Top Section */
@@ -209,3 +212,8 @@ footer {
     text-decoration: none;
     color: black;
 }
+#ftr-btn:hover {
+    background-color: lightgray;
+
+}
+/* END Footer */
